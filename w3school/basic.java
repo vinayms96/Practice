@@ -1,9 +1,10 @@
 import java.util.Scanner;
 public class basic{
-    public static void main(String[] args){
-        String[] val = {"trip","talk","phone","told","good"};
-        for(String res : val){
-            System.out.println(res);
-        }
+    public void pick(int n){
+    	if (n<18){
+    		throw new ArithmeticException("Not Valid");
+    	}else{
+    		System.out.println("Valid");
+    	}
     }
 }
