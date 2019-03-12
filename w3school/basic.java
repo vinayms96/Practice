@@ -1,10 +1,12 @@
 import java.util.Scanner;
 public class basic{
-    public void pick(int n){
-    	if (n<18){
-    		throw new ArithmeticException("Not Valid");
-    	}else{
-    		System.out.println("Valid");
-    	}
+	int x;
+    basic(){
+    	x = 97;
+    }
+
+    public static void main(String[] args) {
+    	basic base = new basic();
+    	System.out.println((char)base.x);
     }
 }

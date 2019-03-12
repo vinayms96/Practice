@@ -22,7 +22,7 @@ class randpick{
 	public String randchar(){
 		System.out.println("Enter Length of String");
 		int qty=sc.nextInt();
-		String charac = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+		String charac = "abcdefghijklmnopqrstuvwxyz"+"ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 		return loop(qty,charac);
 	}
 	public String randboth(){
